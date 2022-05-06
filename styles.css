@@ -1,0 +1,88 @@
+/* maven pro fonts */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800&display=swap');
+
+/* universal  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    font-family: 'maven pro', sans-serif;
+    line-height: 1.3em;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* headings */
+h2 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* button */
+.btn {
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 22px;
+    font-weight: 300;
+    background-color: aquamarine;
+    color: #333;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 1px 1px 4px #333;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 30px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links li {
+    list-style-type: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(40, 88, 72);
+    padding-right: 20px;
+}
+
+.nav-links li a:hover {
+    text-shadow: 1px 1px 4px rgb(40, 88, 72);
+    transition: 0.4s;
+}
+
+/* color flipper */
+.flipper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #333;
+    margin: 30px;
+    padding: 30px;
+    background-color: #f4f4f4;
+
+}
